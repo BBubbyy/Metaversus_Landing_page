@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { socials } from "../index.js";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 
