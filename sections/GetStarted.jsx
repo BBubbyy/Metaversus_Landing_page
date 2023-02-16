@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
-import { startingFeatures } from '../constants';
+import { startingFeatures } from '../index.js';
 
 const GetStarted = () => (
   <section className={`${styles.pendings} relative z-10`}>
